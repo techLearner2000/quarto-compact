@@ -7,7 +7,7 @@ format: compact-pdf
 
 # Intro
 
-Sit ad sollicitudin neque turpis dui turpis rhoncus nisi odio. Pretium velit torquent porta habitant nostra sed. Morbi cum enim nisi facilisis risus sem mi ultrices. Rhoncus potenti consequat magnis sed molestie per dignissim dictumst molestie senectus ultricies.
+Here is the [link](https://www.google.com)
 
 # Code
 
@@ -17,13 +17,6 @@ Some code:
 summary(mtcars$mpg)
 ```
 
-# Plot
+# Picture
 
-A simple plot:
-
-```{r}
-#| label: fig-example
-#| fig-cap: "Example Figure"
-par(oma = c(0, 0, 0, 0), mar = c(5, 4, 0, 2) + 0.1)
-plot(mtcars$mpg)
-```
+![topic](/path/to/the/picture){width=500, height=300}
